@@ -1,0 +1,21 @@
+[
+  {
+    "namespace": "tabstrip",
+    "description": "Provides an API to show and hide the tabstrip.",
+
+   "permissions": ["experiments.tabstrip"],
+   "functions": [{
+      "name": "setTabsVisible",
+      "type": "function",
+      "description": "Sets the visibility of the tabstrip.",
+      "parameters": [{
+        "type": "boolean"
+      }]
+    }, {
+      "name": "getTabsVisible",
+      "type": "function",
+      "description": "Returns the visibility of the tabstrip.",
+      "parameters": []
+    }]
+  }
+]
